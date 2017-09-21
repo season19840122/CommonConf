@@ -1,0 +1,46 @@
+#@SwitchHosts! {"url": null, "icon_idx": 0, "title": "\u5e38\u7528 Hosts"}
+
+# --------------------------------------------------
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+
+# 屏蔽Adobe验证
+127.0.0.1 lm.licenses.adobe.com
+
+# 顺网前端团队网站后台
+119.97.142.17 front.icafe8.com
+
+# Google正常访问
+203.208.46.146 docs.google.com
+203.208.46.146 drive.google.com
+209.116.186.251 www.google.com
+209.116.186.251 www.google.com.hk
+209.116.186.251 accounts.google.com
+
+# 我的开发环境
+127.0.0.1 localhost season.com spring.com zyc.com ty.com ns.com hk.com
+
+# 局域网其他人访问
+# 方式一 Apache 配置 ServerName
+192.168.173.236 zyc.com ty.com
+# 方式二 Apache 配置 ServerAlias(不能用*泛域名的方式来配置，需要指定名字)
+192.168.173.236 season.zyc.com season.ty.com season.ns.com season.hk.com season.season.com season.spring.com
