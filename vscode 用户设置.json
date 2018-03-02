@@ -1,0 +1,21 @@
+{
+    "sublimeTextKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnPaste": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontSize": 15,
+    "terminal.integrated.fontSize": 15,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "vue-html": "html",
+        "vue": "html",
+        "javascript": "javascriptreact",
+        "plaintext": "jade"
+    },
+    "files.exclude": {
+        "**/node_modules": true
+    }
+}
