@@ -1,11 +1,11 @@
 {
-    "sublimeTextKeymap.promptV3Features": true,
+    "workbench.colorTheme": "Monokai",
+    "workbench.startupEditor": "newUntitledFile",
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.snippetSuggestions": "top",
     "editor.formatOnPaste": true,
-    "workbench.startupEditor": "newUntitledFile",
-    "editor.fontSize": 15,
-    "terminal.integrated.fontSize": 15,
+    "editor.fontSize": 14,
+    "terminal.integrated.fontSize": 14,
     "git.autofetch": true,
     "git.confirmSync": false,
     "emmet.triggerExpansionOnTab": true,
@@ -18,5 +18,6 @@
     "files.exclude": {
         "**/node_modules": true
     },
-    "editor.detectIndentation": false
+    "editor.detectIndentation": false,
+    "git.path": "D:/Program Files/Git/bin/git.exe"
 }
