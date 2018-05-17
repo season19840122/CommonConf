@@ -1,0 +1,11 @@
+Mac 常用快捷键：
+
+1、打开目录
+command + o
+
+2、显示桌面
+command + F3
+
+3、进入上、下级目录
+command + 上箭头
+command + 下箭头

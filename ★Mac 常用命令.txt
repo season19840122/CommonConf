@@ -1,0 +1,72 @@
+Mac 常用命令：
+
+在终端里执行： ls /Volumes/XX”, 看看显示出的是不是这个移动硬盘的内容。
+驱动所在位置： /System/Library/Extensions
+用户文件夹位置： /User/用户名
+桌面的位置： /User/用户名/Desktop
+根目录位置是 / 核心 Mach_kernel 文件通配符为星号 *
+
+0、获取 root 权限
+方法一：
+sudo -i
+输入 root 密码即可
+方法二：
+su 或者 sudo su
+输入 root 密码即可
+
+1、想看看跟目录下有什么，参数：-w 显示中文，-l 详细信息，-a 包括隐藏文件
+ls -w
+ls -a
+
+2、转换目录
+cd
+
+3、新建目录
+mkdir
+
+4、拷贝文件，参数：R 表示对目录进行递归操作，kext 在图形界面下看起来是个文件，实际上是个文件夹。
+cp -R
+
+5、移动文件
+mv 
+
+6、删除文件，参数：-rf 表示递归和强制，千万要小心使用，如果执行了 "rm -rf /" 你的系统就全没了
+rm -rf
+
+7、更改文件权限，参数：R 表示递归，755表示各用户的权限
+chmod -R 
+
+8、脚本文件名
+sh
+
+★9、获取系统管理员权限（记得每次操作前 sudo -s 获得系统权限）
+sudo -s
+
+10、启用超级用户，系统会实时要求输入 Root user 的新密码，然后再输入一次，以确保密码正确。
+sudo passwd Root
+
+11、关机
+sudo shutdown -h now
+
+12、隐藏文件，mv 命令是用来移动文件的，但是如果还在同一个路径下则为重命名
+隐藏 Tool 文件
+mv Tool .Tool
+mv .Tool Tool
+
+★13、锁屏
+control+shift+开关机键
+
+14、查 IP
+ifconfig
+
+15、禁止 .DS_store 生成
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE
+
+16、退出 root 模式
+exit
+
+
+
+
+
+

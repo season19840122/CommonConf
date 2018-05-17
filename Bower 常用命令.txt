@@ -1,0 +1,9 @@
+Bower 常用命令：
+
+1、安装包
+bower install react
+
+2、列出安装包路径（--json 代表 json 格式，一般 --paths 就够了）
+bower list --paths
+or
+bower list --paths --json
