@@ -1,0 +1,54 @@
+﻿Git 常用命令：
+
+PS: 想在一台新机器上使用 Github，首先要在 github.com 上新建一个仓库；其次安装 Msysgit 和 Totorise；然后创建 SSH Key 并写在 github.com 上添加它；最后验证 SSH Key是否成功。
+
+向 Github 提交代码的完整流程（按顺序执行）：
+1、创建仓库
+mkdir git
+cd git
+
+★2、初始化 Git 仓库
+git init
+
+★3、创建 SSH Key，这里 your_email@youremail.com 是你的邮箱地址
+ssh-keygen -t rsa -C "season19840122@163.com"
+
+★4、测试 SSH Key 是否添加成功
+ssh -T git@github.com
+
+★5、设置 username 和 email
+git config --global user.name "season19840122"
+git config --global user.email "season19840122@163.com"
+配置成功后可以查询
+git config --global user.name
+git config --global user.email
+
+6、添加文件
+git add filename
+如：提交当前目录下的全部文件 git add .
+
+★7、提交分支
+git commit -m "first commit" 
+
+8、从 Github 上更新最新的文件
+git pull origin master
+
+★9、添加远程地址
+git remote add origin https://github.com/season19840122/Gulp3.0.git
+
+★10、上传到 Github
+git push -u origin master
+
+★11、查看远程仓库
+git remote -v
+
+其他有用的命令：
+★克隆远程的项目到本地
+git clone https://github.com/season19840122/Gulp3.0.git
+
+随时掌握工作区的状态
+git status
+
+查看代码的历史版本号
+git log
+git log --pretty=oneline   —— 要求版本信息只能在一行中显示
