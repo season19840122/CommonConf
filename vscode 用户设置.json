@@ -1,9 +1,7 @@
 {
-    "workbench.colorTheme": "Monokai",
     "workbench.startupEditor": "newUntitledFile",
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.snippetSuggestions": "top",
-    "editor.formatOnPaste": true,
     "editor.fontSize": 15,
     "terminal.integrated.fontSize": 15,
     "git.autofetch": true,
@@ -19,5 +17,10 @@
         "**/node_modules": true
     },
     "editor.detectIndentation": false,
-    "git.path": "D:/Program Files/Git/bin/git.exe"
+    "git.path": "D:/Program Files/Git/bin/git.exe",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "workbench.colorTheme": "Monokai Dimmed",
+    "view-in-browser.customBrowser": "chrome",
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false
 }
