@@ -20,7 +20,8 @@
     "git.path": "D:/Program Files/Git/bin/git.exe",
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
     "workbench.colorTheme": "Monokai Dimmed",
-    "view-in-browser.customBrowser": "chrome",
+    "open-in-browser.default": "chrome",
     "editor.formatOnPaste": false,
-    "editor.formatOnSave": false
+    "editor.formatOnSave": false,
+    "git.enableSmartCommit": true
 }
