@@ -2,8 +2,8 @@
     "workbench.startupEditor": "newUntitledFile",
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.snippetSuggestions": "top",
-    "editor.fontSize": 15,
-    "terminal.integrated.fontSize": 15,
+    "editor.fontSize": 16,
+    "terminal.integrated.fontSize": 16,
     "git.autofetch": true,
     "git.confirmSync": false,
     "emmet.triggerExpansionOnTab": true,
@@ -23,5 +23,6 @@
     "open-in-browser.default": "chrome",
     "editor.formatOnPaste": false,
     "editor.formatOnSave": false,
-    "git.enableSmartCommit": true
+    "git.enableSmartCommit": true,
+    "editor.tabSize": 2
 }
