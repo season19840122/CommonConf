@@ -1,0 +1,31 @@
+﻿npm 与 yarn 命令对应：
+
+1、初始化项目
+npm init
+yarn init
+
+2、安装包
+npm i [package] || npm install [package]
+yarn add [package]
+全局安装
+npm install [package]@[version] -g
+yarn globe add [package]@[version]
+指定包
+npm install [package]@[version] -D(-S)
+yarn add [package]@[version] -D
+
+3、安装项目所有包
+npm i
+yarn || yarn install
+
+4、移除包
+npm rm [package] || npm remove [package]
+yarn remove [package]
+
+5、升级包
+npm update [package]
+yarn upgrade [package]
+
+6、设置国内镜像
+npm config set registry https://registry.npm.taobao.org
+yarn config set registry https://registry.npm.taobao.org

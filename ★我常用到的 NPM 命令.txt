@@ -1,0 +1,61 @@
+﻿NPM 常用命令：
+1、安装Node模块
+本地安装 npm install moduleNames
+全局安装 npm install -g moduleName
+
+2、清理缓存、列出缓存目录
+npm cache clean
+npm cache ls 
+
+3、设置安装目录
+npm config get prefix
+npm config set prefix "D:\Program Files\Program\nodejs"
+
+4、设置缓存路径
+npm config get cache
+npm config set cache "D:\Program Files\nodejs"
+
+★5、设置下载镜像地址
+npm config get registry
+npm config set registry "https://registry.npm.taobao.org/"
+
+★4、检查过期模块
+npm outdated -g --depth=0
+
+5、全局更新所有模块（npm 版本必须不小于 2.6.1）
+npm update -g
+
+★6、列出指定的模块和依赖
+npm ls -g moduleName
+如：npm ls -g generator-webapp
+
+7、升级 NPM（不要轻易尝试升级 NPM）
+npm install npm -g
+
+8、查询 .npmrc 路径(对 npm publish 很重要)
+npm config get userconfig
+
+★9、在 npm 官网上查询一个模块的所有 package.json 信息
+npm view moduleName
+如果想要查看 package.json 文件夹下某个标签的内容，可以使用：
+npm view moduleName labelName
+例如，查询该模块的版本：
+npm view postcss versions
+
+10、创建一个package.json文件，包括名称、版本、作者这些信息等
+npm init
+
+★11、查看帮助命令
+npm help command
+
+★12、查询安装包的主页
+npm home moduleName
+
+13、查看 .npmrc 配置信息和路径
+npm config ls -l
+
+★14、安装某一个包的版本
+npm install --save-dev gulp-babel@7.0.0
+
+15、node 新版本导致包出问题了，重新强制在新版本下构建
+npm rebuild node-sass --force

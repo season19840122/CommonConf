@@ -1,0 +1,18 @@
+Sub 图片缩放()
+'
+' 图片缩放 宏
+'
+'
+
+Myheigth = 15
+Mywidth = 15
+On Error Resume Next '忽略错误
+For Each iShape In ActiveDocument.InlineShapes
+iShape.Height = 28.345 * Myheigth '设置图片高度为任意cm
+iShape.Width = 28.345 * Mywidth '设置图片宽度
+Next
+For Each Shape In ActiveDocument.Shapes
+Shape.Height = 28.345 * Myheigth '设置图片高度为任意cm
+Shape.Width = 28.345 * Mywidth '设置图片宽度
+Next
+End Sub
