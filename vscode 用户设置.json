@@ -50,7 +50,10 @@
       "autoFix": true
     }
   ],
-  "eslint.autoFixOnSave": true,
   "workbench.colorTheme": "Material Theme High Contrast",
-  "workbench.iconTheme": "eq-material-theme-icons"
+  "workbench.iconTheme": "eq-material-theme-icons",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "eslint.autoFixOnSave": true,
+  "editor.formatOnType": false,
+  "files.eol": "\r\n"
 }
