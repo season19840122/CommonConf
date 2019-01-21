@@ -18,11 +18,10 @@ PS:
 fatal: Could not read from remote repository.
 rsa 路径：C:\Users\Season\.ssh\id_rsa.pub
 
-
 4、测试 SSH Key 是否添加成功
 ssh -T git@github.com
 
-★5、设置 username 和 email
+5、设置 username 和 email
 git config --global user.name "season19840122"
 git config --global user.email "season19840122@163.com"
 配置成功后可以查询
@@ -37,13 +36,15 @@ git add README.md
 git commit -m "new"
 
 8、从 Github 上更新最新的文件
-git pull origin master
+git pull --rebase origin master
 
 ★9、添加远程地址
-git remote add origin https://github.com/season19840122/Gulp3.0.git
+git remote add origin git@github.com/season19840122/Gulp3.0.git
 
 ★10、上传到 Github
 git push -u origin master
+强推
+git push -f origin master
 
 11、查看远程仓库
 git remote -v
