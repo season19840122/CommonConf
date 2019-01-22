@@ -44,7 +44,7 @@ git remote add origin git@github.com/season19840122/Gulp3.0.git
 ★10、上传到 Github
 git push -u origin master
 强推
-git push -f origin master
+git push -f
 
 11、查看远程仓库
 git remote -v
