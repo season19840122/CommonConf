@@ -51,9 +51,10 @@
     }
   ],
   "workbench.colorTheme": "Material Theme High Contrast",
-  "workbench.iconTheme": "eq-material-theme-icons",
+  "workbench.iconTheme": "vscode-icons",
   "diffEditor.ignoreTrimWhitespace": false,
   "eslint.autoFixOnSave": true,
   "editor.formatOnType": false,
-  "files.eol": "\r\n"
+  "files.eol": "\r\n",
+  "files.associations": { "*.wpy": "vue" }
 }
