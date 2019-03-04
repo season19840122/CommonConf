@@ -38,7 +38,7 @@ git commit -m "new"
 8、从 Github 上更新最新的文件
 git pull --rebase origin master
 
-★9、添加远程地址
+9、第一次添加远程地址
 git remote add origin git@github.com/season19840122/Gulp3.0.git
 
 ★10、上传到 Github
