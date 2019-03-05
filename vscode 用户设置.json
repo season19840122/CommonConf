@@ -56,5 +56,26 @@
   "eslint.autoFixOnSave": true,
   "editor.formatOnType": false,
   "files.eol": "\r\n",
-  "files.associations": { "*.wpy": "vue" }
+  "files.associations": {
+    "*.wpy": "vue"
+  },
+  "liveSassCompile.settings.formats":[
+    // More Complex
+    {
+        "format": "compact",
+        "extensionName": ".css",
+        "savePath": null
+    }
+  ],
+  "liveSassCompile.settings.generateMap": false,
+  "liveSassCompile.settings.autoprefix": [
+    "last 2 version",
+    "> 10%",
+    "> 5% in CN",
+    "iOS < 7",
+    "Firefox < 20",
+    "ie >= 8"
+  ],
+  "liveServer.settings.CustomBrowser": "chrome",
+  "liveServer.settings.donotShowInfoMsg": true
 }
