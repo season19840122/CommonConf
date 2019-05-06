@@ -59,3 +59,7 @@ npm install --save-dev gulp-babel@7.0.0
 
 15、node 新版本导致包出问题了，重新强制在新版本下构建
 npm rebuild node-sass --force
+
+
+16、查看包的版本
+npm info webpack
