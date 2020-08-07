@@ -65,6 +65,14 @@ defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE
 16、退出 root 模式
 exit
 
+17、新建文件
+touch x.html
+
+18、VS Code 打开文件
+code x.html
+
+19、浏览器打开文件
+open x.html
 
 
 
